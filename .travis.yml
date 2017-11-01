@@ -55,6 +55,8 @@ matrix:
   - python: 3.5
     env: TOXENV=py35-django110-django
   - python: 3.5
+    env: TOXENV=py35-django200-django
+  - python: 3.5
     env: TOXENV=py35-lint
 
 install: travis_retry pip install coveralls tox
